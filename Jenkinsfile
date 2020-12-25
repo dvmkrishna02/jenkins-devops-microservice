@@ -12,7 +12,7 @@
 //DECLARATIVE PIPELINE
 
 pipeline {
-	agent any{
+	agent any
 		stages{
 			stage('Build'){
 				echo "Build"
@@ -28,5 +28,4 @@ pipeline {
 				echo "Integration Test"
 			}
 		}
-	}
 }
